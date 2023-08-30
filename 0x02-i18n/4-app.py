@@ -30,5 +30,5 @@ def get_locale():
 def index():
     """Render page"""
     locale = get_locale()
-    template = render_template("1-index.html", locale=locale)
+    template = render_template("4-index.html", locale=locale)
     return template
