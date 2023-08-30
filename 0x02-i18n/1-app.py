@@ -21,3 +21,7 @@ def index():
     locale = request.args.get("locale")
     template = render_template("1-index.html", locale=locale)
     return template
+
+
+if __name__ == '__main__':
+    app.run(debug=True)
